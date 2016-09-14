@@ -1,0 +1,22 @@
+{
+  "module": "commonjs",
+  "sourceMaps": true,
+  "projFile": "./src/fsharpsources.fsx",
+  "outDir": "temp",
+  "scripts": {
+    "prebuild": "npm install",
+    "postbuild": "webpack"
+  },
+  "targets": {
+    "watch": {
+      "scripts": {
+        "postbuild": "webpack --watch"
+      }
+    },
+    "release": {
+      "scripts": {
+        "postbuild": "webpack --optimize-minimize"
+      }
+    }
+  }
+}

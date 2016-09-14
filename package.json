@@ -1,0 +1,22 @@
+{
+  "name": "fsharp-resources",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "fable && node copyfiles.js",
+    "release": "fable --target release && node copyfiles.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ian Moore",
+  "license": "ISC",
+  "dependencies": {
+    "core-js": "^2.4.1",
+    "fable-core": "^0.5.5"
+  },
+  "devDependencies": {
+    "fable-compiler": "^0.5.11",
+    "source-map-loader": "^0.1.5",
+    "webpack": "^1.13.2"
+  }
+}

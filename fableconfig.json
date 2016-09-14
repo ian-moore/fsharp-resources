@@ -1,7 +1,7 @@
 {
   "module": "commonjs",
   "sourceMaps": true,
-  "projFile": "./src/fsharpsources.fsx",
+  "projFile": "./src/fsharpresources.fsx",
   "outDir": "temp",
   "scripts": {
     "prebuild": "npm install",

@@ -1,0 +1,123 @@
+body { 
+    font-family: "Helvetica Neue", Helvetica, sans-serif;
+    max-width: 650px;
+    margin: 1em auto;
+}
+
+a, a:visited {
+    color: #55e;
+}
+
+#sorting-controls {
+    font-weight: bold;
+    font-size: 0.9em;
+    margin: 30px 0px 20px 10px;
+}
+
+#sorting-controls input[type="radio"] {
+    display:none; 
+}
+
+#sorting-controls label {
+    display:inline-block;
+    background-color:#aaf;
+    padding:4px 11px;
+    font-family:Arial;
+    font-size:16px;
+    font-weight: normal;
+    font-size: 1em;
+}
+
+#sorting-controls input[type="radio"]:checked + label { 
+    background-color: #77f;
+}
+
+#item-list {
+    margin: 0;
+    list-style: none;
+    padding: 0;
+    border-bottom: 1px solid #ddd;
+    color: #555;
+}
+
+.item-box {
+    display: flex;
+    border: 1px solid #ddd;
+    border-bottom: 0;
+    height: 80px;
+    background-color: #f4f4f4;
+}
+
+.item-group-header {
+    color: #222;
+    font-weight: bold;
+    font-size: 1.1em;
+    padding-left: 10px;
+    padding-top: 25px;
+    padding-bottom: 5px;
+    border-top: 1px solid #ddd;
+}
+
+.item-group-header:first-child {
+    border-top: none;
+    padding-top: 15px;
+}
+
+.media-icon {
+    width: 75px;
+    height: 80px;
+    /*border-right: 1px solid #ddd;*/
+    opacity: 0.4;
+}
+
+.media-icon svg {
+    width: 60px;
+    height: 60px;
+    margin: 10px;
+}
+
+.github-icon {
+    width: 60px;
+    height: 60px;
+    margin: 10px;
+    opacity: 0.6;
+    background-image: url('GitHub-Mark-64px.png');
+    background-size: 60px 60px;
+}
+
+.item-details {
+    width: 575px;
+    padding: 5px 7px 5px 10px;
+}
+
+.item-link {
+    font-weight: bold;
+    padding-bottom: 2px;
+}
+
+.item-link a, .item-link a:visited {
+    color: #333;
+}
+
+.item-desc {
+    font-size: 0.8em;
+    height: 36px;
+}
+
+footer {
+    text-align: center;
+    color: #555;
+}
+
+.author {
+    font-size: 0.8em;
+}
+
+.license {
+    font-size: 0.6em;
+}
+
+.item-topic {
+    font-size: 0.75em;
+    font-style: italic;
+}

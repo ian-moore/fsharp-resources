@@ -180,4 +180,9 @@ let sourceList = [
         Description="You can't organize an F# app like a C# app. This blog series shows how to organize your app correctly for functional programming."
         Type=Blog
         Topics=[Architecture]}
+    {   Name="Chessie"
+        Url="http://fsprojects.github.io/Chessie/"
+        Description="Library that implements classes and operators based on the Railway Oriented Programming model."
+        Type=Documentation
+        Topics=[Architecture]}
 ]
